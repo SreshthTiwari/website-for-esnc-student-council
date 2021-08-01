@@ -1,3 +1,5 @@
+### Project Files for ESNC Student Council Webpage
+
 This repository contains the project files for the website of the ESNC
 Student Council 2020-21. The website provides a friendly interface through which the students can interact with the council - they can share their ideas, opinions, suggestions and more, directly with the Student Council.
 
