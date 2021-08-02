@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: #ffe4c2;
+}
+
+@keyframes starta {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form {
+  animation: starta 2s;
+}
+
+.form {
+  margin: auto;
+  width: 85%;
+  position: absolute;
+  top: 25%;
+  left: 7.5%;
+  background: url(../../Assets/SimilarToBG.PNG);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.form h1 {
+  font-size: 52px;
+  color: white;
+  margin-bottom: 1%;
+}
+
+.form h2 {
+  font-size: 22px;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.form a {
+  font-size: 18px;
+  transition: 0.4s;
+  text-decoration: none;
+  color: white;
+  border: white solid 1px;
+  padding: 9px 20px;
+  border-radius: 22px;
+}
+
+.form a:hover {
+  background-color: white;
+  color: #cbe8da;
+  transition: 0.4s;
+}
+
+@media (max-width: 700px) {
+  .form h1 {
+    font-size: 28px;
+  }
+
+  .form h2 {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .form a {
+    font-size: 13px;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: #ff9216d3;
+}
+
+.footer h4 {
+  font-size: 24px;
+  margin-top: 2%;
+  margin-bottom: 0.3%;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer .bx {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+@media (max-width: 700px) {
+  .footer h4 {
+    font-size: 15px;
+  }
+
+  .footer .bx {
+    font-size: 19px;
+  }
+}
