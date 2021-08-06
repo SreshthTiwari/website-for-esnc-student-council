@@ -5,6 +5,16 @@ let links = document.getElementsByClassName("link");
 let list_items = document.getElementsByTagName("li");
 const links_array = Array.from(links);
 const array_list_items = Array.from(list_items);
+const scrollupbutton = document.querySelector('.scollUp');
+
+window.addEventListener('scroll', () => {
+  if(window.pageYOffset > 100){
+    scrollupbutton.classList.add('active');
+  }
+  else{
+    scrollupbutton.classList.remove('active');
+  }
+})
 
 window.onload = remove_links;
 
