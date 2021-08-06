@@ -3,7 +3,7 @@
 *:after {
   --primarytext: #ffffff;
   --secondarytext: rgb(255, 255, 255);
-  --background: #ffe4c6;
+  --background: #ffe4c68f;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,6 +21,7 @@
   }
 }
 
+.screen,
 form {
   animation: starta 2s;
 }
@@ -91,6 +92,7 @@ textarea {
   height: 8px;
   margin-right: 3px;
   border-radius: 8px;
+  opacity: 1;
   background: white;
 }
 
@@ -125,6 +127,7 @@ textarea {
   flex-direction: column;
   position: relative;
   color: white;
+  opacity: 1;
   font-size: 26px;
   font-weight: 600;
 }
@@ -140,10 +143,15 @@ textarea {
   background: white;
 }
 
+.app-title span {
+  opacity: 1;
+}
+
 .app-contact {
   margin-top: auto;
+  opacity: 1;
   font-size: 8px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .app-form-group {
@@ -165,14 +173,15 @@ textarea {
   background: none;
   border: none;
   border-bottom: 1px solid rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
+  color: rgba(255, 255, 255, 1);
   font-size: 14px;
   outline: none;
   transition: border-color 0.2s;
 }
 
 .app-form-control::placeholder {
-  color: rgba(255, 255, 255, 0.651);
+  color: rgba(255, 255, 255, 0.851);
 }
 
 .app-form-control:focus {
