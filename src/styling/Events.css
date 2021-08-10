@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #ff6e0d;
+  background-color: #ffe4c2;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -25,17 +25,21 @@ h1,
 
 /* #region MAIN HEADER */
 .first {
-  width: 100%;
-  height: 50vh;
-  background-image: url("../../Assets/OrangeBG.PNG");
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 15vh;
+  height: 70vh;
+  background-image: url("../../Assets/BG.PNG");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
+  box-shadow: 10px 10px 50px rgba(173, 171, 171, 0.397);
 }
 
 .first h1 {
-  padding-top: 5%;
+  padding-top: 13%;
   font-size: 72px;
   margin-bottom: 3%;
 }
@@ -102,91 +106,12 @@ h1,
 }
 /* #endregion */
 
-/* #region SUB HEADER - ABOUT SPORTS IN SCHOOL */
-.second {
-  margin: 0px auto;
-  width: 85.2%;
-  background-image: url("../../Assets/SimilarToBG.PNG");
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  border-radius: 10px;
-  text-align: center;
-  padding: 100px 0;
-}
-
-.second h1 {
-  font-size: 52px;
-  color: white;
-  margin-bottom: 40px;
-  padding: 0;
-}
-
-.second a {
-  font-size: 18px;
-  transition: 0.4s;
-  text-decoration: none;
-  color: white;
-  border: white solid 1px;
-  padding: 9px 20px;
-  border-radius: 22px;
-}
-
-.second a:hover {
-  background-color: white;
-  color: #cbe8da;
-  transition: 0.4s;
-}
-/* #endregion */
-
-/* #region ABOUT SPORTS */
-.about {
-  width: 85%;
-  margin: auto;
-  text-align: center;
-  padding-top: 100px;
-}
-
-.content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contentcol {
-  flex-basis: 31%;
-  border-radius: 10px;
-  margin-bottom: 8%;
-  padding: 20px 02px;
-  transition: 0.3s;
-  background: #ffbd70;
-}
-
-.contentcol:hover {
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-}
-
-.contentcol h3 {
-  text-align: center;
-  margin: 10px 0px;
-}
-
-.contentcol p {
-  margin: 10px;
-  font-weight: 200;
-}
-/* #endregion */
-
 @media (max-width: 700px) {
-  .first {
-    height: 40vh;
-  }
-
   .first h1 {
     font-size: 34px;
     margin-left: 19px;
     margin-right: 19px;
-    padding-top: 50px;
+    padding-top: 120px;
     padding-bottom: 20px;
   }
 
