@@ -66,7 +66,7 @@ h1,
   width: 80%;
   margin: auto;
   padding-top: 100px;
-  padding-bottom: 90px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -103,6 +103,155 @@ h1,
 .captains h1 {
   font-size: 32px;
   margin-bottom: 5%;
+  margin-top: 2%;
+}
+/* #endregion */
+
+/* #region ABOUT SECTION DESIGN */
+.about {
+  width: 78%;
+  margin: auto;
+  text-align: center;
+  /* padding-top: 100px; */
+}
+
+.about a {
+  font-size: 15px;
+  transition: 0.4s;
+  text-decoration: none;
+  color: white;
+  border: white solid 1px;
+  padding: 9px 20px;
+  border-radius: 22px;
+}
+
+.about a:hover {
+  background-color: white;
+  color: #cbe8da;
+  transition: 0.4s;
+}
+
+.about h1 {
+  font-size: 30px;
+  margin-bottom: 7%;
+}
+
+.about p {
+  font-size: 17px;
+  font-weight: 250;
+  line-height: 22px;
+  /* padding: 10px; */
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col2 {
+  flex-basis: 37%;
+  border-radius: 10px;
+  margin-bottom: 8%;
+  /* padding: 20px 02px; */
+  padding-bottom: 3%;
+  transition: 0.3s;
+  background: #ffbd70;
+}
+
+.col2:hover {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.col2 h3 {
+  text-align: center;
+  font-size: 19px;
+  margin: 20px 0px;
+}
+
+.col2 p {
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+}
+
+.eventimg img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+@media (max-width: 700px) {
+  .about h3 {
+    font-size: 17px;
+  }
+
+  .about p {
+    font-size: 13px;
+    margin-bottom: 4%;
+  }
+
+  .row {
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+}
+
+/* #endregion */
+
+/* #region GO TO FORM PAGE DESIGN */
+.form {
+  margin: auto;
+  margin-top: 5%;
+  width: 79%;
+  box-shadow: 10px 10px 50px rgba(182, 182, 182, 0.363);
+  background-image: url("../../Assets/SimilarToBG.PNG");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.form h1 {
+  font-size: 52px;
+  color: white;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.form a {
+  font-size: 18px;
+  transition: 0.4s;
+  text-decoration: none;
+  color: white;
+  border: white solid 1px;
+  padding: 9px 20px;
+  border-radius: 22px;
+}
+
+.form a:hover {
+  background-color: white;
+  color: #cbe8da;
+  transition: 0.4s;
+}
+
+@media (max-width: 700px) {
+  .form {
+    padding: 50px 0;
+  }
+
+  .form h1 {
+    font-size: 24px;
+  }
+
+  .form a {
+    font-size: 13px;
+  }
 }
 /* #endregion */
 
@@ -122,6 +271,12 @@ h1,
 
   .captains {
     padding-top: 50px;
+  }
+
+  .captains h1 {
+    padding-top: 10%;
+    font-size: 23px;
+    padding-bottom: 10%;
   }
 
   .col {

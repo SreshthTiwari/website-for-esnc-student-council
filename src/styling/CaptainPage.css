@@ -106,7 +106,7 @@ h1,
 .second {
   margin: 0px auto;
   width: 85.2%;
-  background-image: url("../../Assets/SimilarToBG.PNG");
+  background-image: url("../../Assets/OrangeBG.PNG");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -158,7 +158,7 @@ h1,
   margin-bottom: 8%;
   padding: 20px 02px;
   transition: 0.3s;
-  background: #ffbd70;
+  background: #ffb152;
 }
 
 .contentcol:hover {

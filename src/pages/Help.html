@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styling/common.css" />
+    <link rel="stylesheet" href="../styling/help.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+
+    <title>Help</title>
+  </head>
+  <body>
+    <!-- Final Navbar for other Pages -->
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="bx bx-category-alt"></i>
+        <div class="logo_name">Lorem</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="../../index.html#first" class="link">
+            <i class="bx bx-home"></i>
+            <span class="links_name">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="StudentCouncil.html" class="link">
+            <i class="bx bx-user"></i>
+            <span class="links_name">Your Council</span>
+          </a>
+        </li>
+        <li>
+          <a href="Form.html" class="link">
+            <i class="bx bx-message-rounded"></i>
+            <span class="links_name">Send Idea</span>
+          </a>
+        </li>
+        <li>
+          <a href="NewImplementations.html" class="link">
+            <i class="bx bx-calendar-event"></i>
+            <span class="links_name">Initiatives</span>
+          </a>
+        </li>
+        <li>
+          <a href="Houses.html" class="link">
+            <i class="bx bx-home"></i>
+            <span class="links_name">Houses</span>
+          </a>
+        </li>
+        <li>
+          <a href="Events.html" class="link">
+            <i class="bx bx-calendar"></i>
+            <span class="links_name">Events</span>
+          </a>
+        </li>
+        <li>
+          <a href="Help.html" class="link">
+            <i class="bx bx-question-mark"></i>
+            <span class="links_name">Help</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Main Header -->
+    <section class="first">
+      <h1>Help and FAQs</h1>
+      <a href="#section2">Learn More</a>
+    </section>
+    <!-- FAQs -->
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <a>Lorem ipsum dolor sit?</a>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+              suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <a>Lorem ipsum dolor sit?</a>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+              suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <a>Lorem ipsum dolor sit?</a>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+              suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <a>Lorem ipsum dolor sit?</a>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+              suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <a>Lorem ipsum dolor sit?</a>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+              suspendisse potenti.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const items = document.querySelectorAll(".accordion a");
+
+      function toggleAccordion() {
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("active");
+      }
+
+      items.forEach((item) => item.addEventListener("click", toggleAccordion));
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Go To Form -->
+    <section class="form" id="form">
+      <h1>Still have a question?</h1>
+      <a href="src/pages/Form.html">Ask us</a>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+      <h4>Developed by Sreshth Tiwari</h4>
+      <div class="icons">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/SreshthTiwari/sv.io"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://discord.com"
+          ><i class="bx bxl-discord"></i
+        ></a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://stackoverflow.com/users/16481210/sreshth-tiwari"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+      </div>
+    </section>
+    <script src="../script.js"></script>
+  </body>
+</html>

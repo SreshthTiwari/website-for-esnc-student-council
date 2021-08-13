@@ -38,6 +38,7 @@ html {
   border-radius: 10px;
   text-align: center;
   padding: 100px 0;
+  box-shadow: 10px 10px 50px rgba(160, 160, 160, 0.384);
 }
 
 .form h1 {
@@ -81,40 +82,5 @@ html {
 
   .form a {
     font-size: 13px;
-  }
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  background: #ff9216d3;
-}
-
-.footer h4 {
-  font-size: 24px;
-  margin-top: 2%;
-  margin-bottom: 0.3%;
-}
-
-.footer a {
-  text-decoration: none;
-}
-
-.footer .bx {
-  color: white;
-  font-size: 30px;
-  padding: 10px;
-}
-
-@media (max-width: 700px) {
-  .footer h4 {
-    font-size: 15px;
-  }
-
-  .footer .bx {
-    font-size: 19px;
   }
 }
