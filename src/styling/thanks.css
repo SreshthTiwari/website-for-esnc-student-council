@@ -71,6 +71,10 @@ html {
 }
 
 @media (max-width: 700px) {
+  .form {
+    top: 19vh;
+  }
+
   .form h1 {
     font-size: 28px;
   }

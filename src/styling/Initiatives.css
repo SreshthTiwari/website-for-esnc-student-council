@@ -69,7 +69,23 @@ body {
   margin-top: 0;
 }
 
+.form2 h1 {
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 @media (max-width: 700px) {
+  .form {
+    margin-top: 57%;
+    padding: 50px 0;
+    margin-bottom: 38%;
+  }
+
+  .form2 {
+    margin-top: 0;
+  }
+
   .form h1 {
     font-size: 28px;
   }
