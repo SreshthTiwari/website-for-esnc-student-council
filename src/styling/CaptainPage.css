@@ -5,6 +5,7 @@ body {
   overflow-x: hidden;
 }
 
+/* Start Animation */
 @keyframes starta {
   from {
     opacity: 0;
@@ -177,17 +178,66 @@ h1,
 }
 /* #endregion */
 
+/* Ipad */
+@media (max-width: 1400px) {
+  .first {
+    height: 400px;
+  }
+
+  .first h1 {
+    padding-top: 100px;
+    /* margin-right: 50px;
+    margin-left: 50px; */
+    margin-bottom: 30px;
+  }
+
+  .first a {
+    font-size: 20px;
+  }
+
+  .captains {
+    padding-top: 100px;
+  }
+
+  .col {
+    padding-bottom: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .col h3 {
+    line-height: 30px;
+    font-size: 29px;
+  }
+
+  .col p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .col img {
+    height: 95px;
+    margin-right: 30px;
+    width: 95px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Phones */
 @media (max-width: 700px) {
   .first {
-    height: 40vh;
+    height: 250px;
   }
 
   .first h1 {
     font-size: 34px;
     margin-left: 19px;
     margin-right: 19px;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 55px; 
+    margin-bottom: 6vw; 
   }
 
   .first a {

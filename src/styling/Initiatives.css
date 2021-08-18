@@ -5,6 +5,7 @@ body {
   overflow-x: hidden;
 }
 
+/* Start Animation */
 @keyframes starta {
   from {
     opacity: 0;
@@ -17,6 +18,7 @@ body {
   }
 }
 
+/* #region Opening Section and go to form */
 .form {
   animation: starta 2s;
 }
@@ -74,32 +76,9 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+/* #endregion */
 
-@media (max-width: 700px) {
-  .form {
-    margin-top: 57%;
-    padding: 50px 0;
-    margin-bottom: 38%;
-  }
-
-  .form2 {
-    margin-top: 0;
-  }
-
-  .form h1 {
-    font-size: 28px;
-  }
-
-  .form h2 {
-    padding: 10px;
-    font-size: 20px;
-  }
-
-  .form a {
-    font-size: 13px;
-  }
-}
-
+/* #region New Initiatives */
 .initiatives {
   width: 85%;
   margin: auto;
@@ -142,8 +121,59 @@ body {
   font-size: 19px;
   margin: 10px 0px;
 }
+/* #endregion */
 
+/* Ipad */
+@media (max-width: 1050px) {
+  .form {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+  }
+
+  .initiatives h3 {
+    font-size: 17px;
+  }
+
+  .initiatives p {
+    font-size: 13px;
+    margin-bottom: 4%;
+  }
+
+  .row h3 {
+    margin-right: 4.5px;
+    margin-left: 4.5px;
+  }
+
+  .form2 {
+    margin-top: 20px;
+  }
+}
+
+/* Phone */
 @media (max-width: 700px) {
+  .form {
+    margin-top: 30vh;
+    padding: 50px 0;
+    margin-bottom: 30vh;
+  }
+
+  .form2 {
+    margin-top: 0;
+  }
+
+  .form h1 {
+    font-size: 28px;
+  }
+
+  .form h2 {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .form a {
+    font-size: 13px;
+  }
+
   .initiatives h3 {
     font-size: 17px;
   }

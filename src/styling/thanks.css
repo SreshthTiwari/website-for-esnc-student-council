@@ -9,6 +9,7 @@ html {
   background: #ffe4c2;
 }
 
+/* Start Animation */
 @keyframes starta {
   from {
     opacity: 0;
@@ -21,6 +22,7 @@ html {
   }
 }
 
+/* #region Main Section */
 .form {
   animation: starta 2s;
 }
@@ -69,10 +71,11 @@ html {
   color: #cbe8da;
   transition: 0.4s;
 }
+/* #endregion */
 
 @media (max-width: 700px) {
   .form {
-    top: 19vh;
+    top: 18vh;
   }
 
   .form h1 {
@@ -81,6 +84,8 @@ html {
 
   .form h2 {
     padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     font-size: 20px;
   }
 
