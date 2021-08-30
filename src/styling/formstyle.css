@@ -31,7 +31,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 body,
@@ -128,8 +128,7 @@ textarea {
   position: relative;
   color: white;
   opacity: 1;
-  font-size: 26px;
-  font-weight: 600;
+  font-size: 30px;
 }
 
 .app-title:after {
@@ -172,35 +171,43 @@ textarea {
   padding: 10px 0;
   background: none;
   border: none;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1.2px solid rgba(255, 255, 255, 0.54);
   /* color: rgb(255, 255, 255); */
   color: rgba(255, 255, 255, 1);
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
   outline: none;
   transition: border-color 0.2s;
 }
 
 .app-form-control::placeholder {
-  color: rgba(255, 255, 255, 0.851);
+  color: rgba(255, 255, 255, 0.94);
+  font-weight: 300;
 }
 
 .app-form-control:focus {
+  transition: 0.2s;
   border-bottom-color: white;
 }
 
 .app-form-button {
   background: none;
   border: none;
-  color: var(--primarytext);
+  color: white;
   font-size: 14px;
   cursor: pointer;
   outline: none;
-  transition: 0.2s;
+  transition: 0.5s;
+  border: 1px solid white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
 }
 
 .app-form-button:hover {
-  color: #ffefef;
-  transition: 0.2s;
+  color: #ffe4c6a9;
+  background-color: white;
+  transition: 0.5s;
 }
 
 .right {
@@ -223,6 +230,11 @@ textarea {
   .screen {
     width: 90%;
     margin: auto;
+  }
+
+  .app-form-button {
+    padding: 5px 10px 5px 10px;
+    font-size: 10px;
   }
 
   .screen-body {
