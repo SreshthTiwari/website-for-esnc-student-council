@@ -106,8 +106,8 @@ body {
 }
 
 .house .first h1 {
-  font-size: 62px;
-  padding-top: 100px;
+  font-size: 72px;
+  padding-top: 9vw;
 }
 
 .col2 {
@@ -136,24 +136,50 @@ body {
 
 .abouthouse {
   width: 80vw;
-  background: #ffbd70;
-  min-height: 75vh;
+  background: #ffb45e;
+  box-shadow: 0 0 50px 0 rgba(131, 131, 131, 0.1);
+  min-height: 40vh;
   margin: auto;
   border-radius: 10px;
   margin-bottom: 120px;
   text-align: center;
 }
 
-.abouthouse h1 {
+.abouthouse .godname {
+  float: left;
+  width: 40%;
+  height: 40vh;
+  padding-top: 15vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+    url(../../Assets/BG.PNG);
+  background-size: cover;
+  border-radius: 10px 0 0 10px;
+  background-attachment: fixed;
+}
+
+.abouthouse .aboutgod {
+  float: right;
+  width: 60%;
+  height: 40vh;
+}
+
+.aboutgod p {
+  font-size: 25px;
+  margin: 7.5vh;
+}
+
+/* .abouthouse h1 {
   font-size: 40px;
-  padding-top: 5%;
-  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-top: 10%;
 }
 
 .abouthouse p {
-  margin-right: 5%;
-  margin-left: 5%;
-}
+  font-size: 25px;
+  padding-left: 30%;
+  padding-right: 10%;
+} */
+
 /* #endregion */
 
 /* Ipad */
@@ -217,10 +243,15 @@ body {
   .form a {
     font-size: 13px;
   }
+
+  .abouthouse .aboutgod p {
+    font-size: 19px;
+    margin: 6.5vh;
+  }
 }
 
 /* Phone */
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .first {
     height: 40vh;
   }
@@ -288,5 +319,31 @@ body {
   .row {
     padding-top: 0;
     flex-direction: column;
+  }
+
+  .abouthouse {
+    height: 70vh;
+  }
+
+  .abouthouse .godname {
+    height: 20.5vh;
+    width: 100%;
+    padding-top: 8vh;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .abouthouse .godname h1 {
+    font-size: 25px;
+  }
+
+  .abouthouse .aboutgod {
+    float: none;
+    width: 100%;
+  }
+
+  .abouthouse .aboutgod p {
+    font-size: 2.7vh;
+    padding-top: 22vh;
+    margin: 9%;
   }
 }

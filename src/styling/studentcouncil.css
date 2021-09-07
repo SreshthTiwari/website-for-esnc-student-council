@@ -124,7 +124,7 @@ html {
   background-size: cover;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 0 50px rgba(12, 12, 12, 0.158);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   padding: 100px 0;
   margin-top: 100px;
 }

@@ -160,10 +160,11 @@ h1,
   padding: 20px 02px;
   transition: 0.3s;
   background: #ffb152;
+  transition: 0.3s;
 }
 
 .contentcol:hover {
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
@@ -236,8 +237,8 @@ h1,
     font-size: 34px;
     margin-left: 19px;
     margin-right: 19px;
-    padding-top: 55px; 
-    margin-bottom: 6vw; 
+    padding-top: 55px;
+    margin-bottom: 6vw;
   }
 
   .first a {
