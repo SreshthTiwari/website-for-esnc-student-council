@@ -5,8 +5,8 @@
   --secondarytext: rgb(255, 255, 255);
   --background: #ffe4c6a9;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 @keyframes starta {
@@ -34,7 +34,7 @@ body {
   font-size: 15px;
 }
 
-body,
+.form,
 button,
 input,
 textarea {

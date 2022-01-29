@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #ffe4c2;
+  background-color: #ffdbaf;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -36,7 +36,7 @@ h1,
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  box-shadow: 10px 10px 50px rgba(173, 171, 171, 0.397);
+  box-shadow: 0px 0px 50px rgba(255, 146, 231, 0.364);
 }
 
 .first h1 {
@@ -113,7 +113,7 @@ h1,
   width: 78%;
   margin: auto;
   text-align: center;
-  /* padding-top: 100px; */
+  padding-top: 100px;
 }
 
 .about a {

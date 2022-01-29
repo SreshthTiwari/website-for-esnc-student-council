@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #ffe4c2;
+  background-color: #ffdbaf;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -85,10 +85,10 @@ h2 {
   flex-direction: column;
   width: 100%;
   padding: 3rem 3rem 1rem 0rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 25px;
   font-weight: 600;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
   transition: 1s;
 }
 .accordion a:hover,
@@ -118,7 +118,7 @@ h2 {
 }
 .accordion .content p {
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 600;
 }
 .accordion .content.active {
   opacity: 1;
@@ -216,7 +216,6 @@ h2 {
 
   .accordion .content p {
     font-size: 22px;
-    font-weight: 300;
   }
 }
 
@@ -252,6 +251,5 @@ h2 {
 
   .accordion .content p {
     font-size: 15px;
-    font-weight: 300;
   }
 }

@@ -84,7 +84,7 @@ html {
 
 .col {
   display: flex;
-  flex-basis: 44%;
+  flex-basis: 54%;
   margin-bottom: 8%;
   padding: 20px;
   transition: 0.3s;

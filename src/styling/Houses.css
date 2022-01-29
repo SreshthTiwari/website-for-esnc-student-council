@@ -19,9 +19,34 @@ body {
 }
 
 /* #region House images */
+.start {
+  min-height: 100vh;
+}
+
+.text {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.text h1 {
+  font-weight: 700;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.text h3 {
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 .first {
   width: 100vw;
-  height: 50vh;
+  min-height: 50vh;
   background-image: url("../../Assets/OrangeBG.PNG");
   background-position: center;
   background-size: cover;
@@ -29,34 +54,21 @@ body {
   text-align: center;
 }
 
-.Houses {
-  width: 85%;
-  margin: auto;
-  text-align: center;
-  min-height: 100vh;
-  padding-top: 25vh;
-}
-
-.Houses h1 {
-  font-size: 36px;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  font-weight: 500;
-}
-
-.Houses p {
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 22px;
-  padding: 10px;
+.first h1 {
+  font-size: 56px;
+  padding-top: 18vh;
 }
 
 .row {
   display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
   justify-content: space-between;
 }
 
-.row2 {
+.row2,
+.row3 {
   display: flex;
   padding-top: 100px;
   width: 80%;
@@ -65,17 +77,48 @@ body {
 }
 
 .col {
+  background: url(../../Assets/bgforhousespage.png);
+  background-attachment: fixed;
+  /* background-size: cover; */
   flex-basis: 22%;
-  height: 50vh;
+  min-height: 45vh;
+  box-shadow: 0px 0px 50px rgba(34, 34, 34, 0);
   border-radius: 10px;
   margin-bottom: 8%;
-  padding: 20px 12px;
-  transition: 0.3s;
-  background: #ffbd70;
+  position: relative;
+  overflow: hidden;
 }
 
-.col:hover {
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+.layer {
+  background: rgba(0, 0, 0, 0);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.layer h3 {
+  width: 100%;
+  font-weight: 600;
+  color: white;
+  font-size: 26px;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  transition: 0.3s;
+}
+
+.layer:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.04);
+  transition: 0.3s;
+}
+
+.layer:hover h3 {
+  bottom: 17%;
   transition: 0.3s;
 }
 
@@ -112,7 +155,7 @@ body {
 
 .col2 {
   display: flex;
-  flex-basis: 44%;
+  flex-basis: 54%;
   margin-bottom: 7%;
   padding: 20px;
   transition: 0.3s;
@@ -165,7 +208,7 @@ body {
 
 .aboutgod p {
   font-size: 25px;
-  margin: 7.5vh;
+  margin: 5vh;
 }
 
 /* .abouthouse h1 {
@@ -188,19 +231,14 @@ body {
     height: 400px;
   }
 
+  .row {
+    flex-direction: row;
+  }
+
   .house .first h1 {
     font-size: 59px;
     margin-top: 20%;
     padding-top: 150px;
-  }
-
-  .row {
-    flex-direction: column;
-  }
-
-  .col {
-    margin-left: 10vw;
-    margin-right: 10vw;
   }
 
   .row2 {
@@ -256,9 +294,22 @@ body {
     height: 40vh;
   }
 
+  .row {
+    flex-direction: column;
+  }
+
   .house .first h1 {
     font-size: 38px;
     padding-top: 25%;
+  }
+
+  .text h1 {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+
+  .text h3 {
+    font-size: 15px;
   }
 
   /* #region captain profile */
@@ -303,10 +354,6 @@ body {
     flex-direction: column;
   }
 
-  .row {
-    flex-direction: column;
-  }
-
   .Houses h1 {
     font-size: 28px;
   }
@@ -314,11 +361,6 @@ body {
   .Houses p {
     font-size: 13px;
     margin-bottom: 4%;
-  }
-
-  .row {
-    padding-top: 0;
-    flex-direction: column;
   }
 
   .abouthouse {
