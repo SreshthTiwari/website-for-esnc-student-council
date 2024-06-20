@@ -13,12 +13,3 @@ The website also contains information about each member of the council, i.e, the
 
 The website is static, but uses formsubmit to receive mails containing the students ideas.
 
-### Setting up project files
-
-Use
-
-```
-git clone https://github.com/SreshthTiwari/ESNCCouncil.io.git
-```
-
-to download the project files locally on your computer
