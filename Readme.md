@@ -13,3 +13,6 @@ The website also contains information about each member of the council, i.e, the
 
 The website is static, but uses formsubmit to receive mails containing the students ideas.
 
+### Tech Stack
+
+HTML, CSS, Vanilla JS
